@@ -4,7 +4,7 @@ import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import project from "../assets/projects/Dog-Emotion.jpg";
 import lift from "../assets/projects/Banner-image.png";
-import krypto from "../assets/projects/krypto.png";
+import medtrack from "../assets/projects/MedTrack.jpeg";
 
 const Projects = () => {
   return (
@@ -40,14 +40,14 @@ const Projects = () => {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={krypto}
+              imgPath={medtrack}
               isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity."
-              ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
-              demoLink="https://project-krypto.netlify.app/"
+              title="MedTrack - AI Medicine Tracker"
+              description="A full-stack application that prevents medication waste using Gemini AI label scanning, a multilingual chat assistant, and automated daily expiry email alerts."
+              ghLink="https://github.com/Bipasha1003/MedTrack"
+              demoLink="https://medtrack-bm.netlify.app/"
             />
           </Col>
         </Row>
